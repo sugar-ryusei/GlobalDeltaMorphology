@@ -20,7 +20,9 @@ To analyse the global delta morphologies, run the Python files in `working_direc
 
 ### 1. Acquire Feature Vectors
 
-![](https://github.com/sugar-ryusei/GlobalDeltaMorphology/raw/main/figure/cae_model.png)
+<div align="center">
+<img src="https://raw.githubusercontent.com/sugar-ryusei/GlobalDeltaMorphology/main/figure/cae_model.png" width="600">
+</div>
 
 In the architecture of the CAE model, the encoder reduces the data size and extracts the features through convolutional processing, and the decoder expands the data size and reproduces the similar image as the input delta image. The latent codes at the center of the network  are obtained as the compressed representation of the delta morhpology.
 
