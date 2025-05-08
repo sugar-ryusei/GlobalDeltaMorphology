@@ -2,9 +2,9 @@
 
 *GlobalDeltaMorphology* introduces a novel method to quantify global delta morphologies using a convolutional autoencoder (CAE) model.
 
-![](https://github.com/sugar-ryusei/GlobalDeltaMorhpology/blob/main/figure/clustering.png)
+![](https://github.com/sugar-ryusei/GlobalDeltaMorphology/raw/main/figure/clustering.png)
 
-This approach utilizes delta images sampled from the surface water distribution dataset. The CAE model can effectively capture the morphological features in the delta images and compress them into 70-dimensional feature vectors. The X-means clustering method can be applied to the feature vectors to assign morphotypes to the deltas.
+This approach utilizes delta images sampled from the surface water distribution dataset. The CAE model effectively captures the morphological features in the delta images and compresses them into 70-dimensional feature vectors. The X-means clustering method can be applied to the feature vectors to assign morphotypes to the deltas.
 
 Developed by <a href="https://orcid.org/0009-0008-3182-0980" target="_blank">Ryusei Sato</a> and <a href="https://orcid.org/0000-0003-3863-3404" target="_blank">Hajime Naruse</a> from Kyoto University, Japan.
 
@@ -18,7 +18,7 @@ To analyse the global delta morphologies, run the Python files in `working_direc
 
 ### 1. Acquire Feature Vectors
 
-![](https://github.com/sugar-ryusei/GlobalDeltaMorhpology/blob/main/figure/cae_model.png)
+![](https://github.com/sugar-ryusei/GlobalDeltaMorphology/raw/main/figure/cae_model.png)
 
 In the architecture of the CAE model, the encoder reduces the data size and extracts the features through convolutional processing, and the decoder expands the data size and reproduces the similar image as the input delta image. The latent codes at the center of the network  are obtained as the compressed representation of the delta morhpology.
 
