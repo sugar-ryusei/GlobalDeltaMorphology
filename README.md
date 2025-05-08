@@ -2,7 +2,7 @@
 
 *GlobalDeltaMorphology* introduces a novel method to quantify global delta morphologies using a convolutional autoencoder (CAE) model.
 
-![](https://github.com/sugar-ryusei/GlobalDeltaMorphology/raw/main/figure/clustering.png)
+<img src="https://raw.githubusercontent.com/sugar-ryusei/GlobalDeltaMorphology/main/figure/clustering.png" width="600">
 
 This approach utilizes delta images sampled from the surface water distribution dataset. The CAE model effectively captures the morphological features in the delta images and compresses them into 70-dimensional feature vectors. The X-means clustering method can be applied to the feature vectors to assign morphotypes to the deltas.
 
