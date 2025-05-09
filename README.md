@@ -24,9 +24,11 @@ To analyse the global delta morphologies, run the Python files in `working_direc
 <img src="https://raw.githubusercontent.com/sugar-ryusei/GlobalDeltaMorphology/main/figure/cae_model.png" width="600">
 </div>
 
-In the architecture of the CAE model, the encoder reduces the data size and extracts the features through convolutional processing, and the decoder expands the data size and reproduces the similar image as the input delta image. The latent codes at the center of the network  are obtained as the compressed representation of the delta morhpology.
+In the architecture of the CAE model, the encoder reduces the data size and extracts the features through convolutional processing, and the decoder expands the data size and reproduces the similar image as the input delta image. The latent codes at the center of the network  are obtained as the compressed representation of the delta morphology.
 
 The model is implemented using Python version 3.9 with TensorFlow version 2.8.2 and Keras version 2.8.0.
+
+Before executing the following commands, extend `delta_image` in `working_directory`.
 
 To build and train the CAE model, execute:
 
