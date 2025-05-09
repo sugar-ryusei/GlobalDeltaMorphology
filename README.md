@@ -43,7 +43,7 @@ Using the extracted feature vectors, the X-means clustering method can categoriz
 
 To classify and visualize the result:
 
-    python analyse.py
+    python analysis.py
 
 ## Citation
 If *GlobalDeltaMorphology* contributes to your project, please cite:
