@@ -18,7 +18,7 @@ If needed, use conda environment `delta_cae.yml` files are stored in `conda_envi
 
 To analyse the global delta morphologies, run the Python files in `working_directory` folder in this order.
 
-### 1. Acquire Feature Vectors
+### 1. Acquire Morphometrics
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/sugar-ryusei/GlobalDeltaMorphology/main/figure/cae_model.png" width="600">
@@ -39,7 +39,7 @@ To acquire feature vectors for the delta images using the trained CNN model:
     python predict.py
 
 ### 2. Classify Delta Morphology
-Using the extracted feature vectors, the X-means clustering method can categorize delta morphologies into the optimal number of classes based on Bayesian optimization. The clustering result is visualized through the t-SNE method.
+Using the extracted feature vectors, the X-means clustering method can categorize delta morphologies into the optimal number of classes based on Bayesian Information Criterion. The clustering result is visualized through the t-SNE method.
 
 To classify and visualize the result:
 
