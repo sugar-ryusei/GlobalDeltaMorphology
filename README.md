@@ -48,5 +48,12 @@ To classify and visualize the result:
 ## Citation
 If *GlobalDeltaMorphology* contributes to your project, please cite:
 
-    @article{
+    @article{Sato2025,
+       author = {Ryusei Sato and Hajime Naruse},
+       doi = {10.1038/s43247-025-03144-w},
+       issn = {2662-4435},
+       journal = {Communications Earth \& Environment},
+       title = {Identifying controlling factors of delta morphology using a convolutional autoencoder},
+       url = {https://doi.org/10.1038/s43247-025-03144-w},
+       year = {2025}
     }
