@@ -28,7 +28,7 @@ In the architecture of the CAE model, the encoder reduces the data size and extr
 
 The model is implemented using Python version 3.9 with TensorFlow version 2.8.2 and Keras version 2.8.0.
 
-Before executing the following commands, extend `delta_image` in `working_directory`.
+Before executing the following commands, extend `all_image.zip` in `working_directory`.
 
 To build and train the CAE model, execute:
 
